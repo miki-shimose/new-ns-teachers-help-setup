@@ -127,7 +127,7 @@
         function userid_register(user_id, email, key) {
             jQuery.ajax({
                 type: "GET",
-                url: "https://script.google.com/macros/s/AKfycbxIV2Fhns_vmFnjFDVHC-sBGxE4is8hsEPXAiZhfqfdNsLcKl046owrHYyzlbIvWkWp/exec?userid=" + user_id + "&email=" + email + "&key=" + key,
+                url: "https://script.google.com/macros/s/AKfycbxUOr_3z9P0PTwz1tyjCBMkWrSLLW_oqskeMyAoVYUhmVTBgKaLnvLWki_WOxqQrfCRjg/exec?userid=" + user_id + "&email=" + email + "&key=" + key,
                 dataType: "text"
             }).done(function (data) {
                 data = JSON.parse(data);
